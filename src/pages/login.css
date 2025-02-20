@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding: 2rem;
+    width: 100%;
+background-color:  rgb(242, 224, 251) ;
+}
+.main-container .input-box{
+    width: 100%;
+    height: 2rem;
+    margin: 1.9rem 0;
+  
+}
+.input-box input{
+    width: 100%;
+    height:100%;
+    background-color: transparent;
+    outline : none;
+    border:2px solid rgba(200, 120, 230,0.4);
+    border-radius: 2rem;
+    padding: 1.2rem;
+}
+form{
+    background-color: transparent;
+    border:2px solid rgba(200, 120, 230,0.4);
+    border-radius: 3rem;
+    padding: 1.8rem;
+}
+.remember-box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin:-1rem 0 1rem;
+}
+.remember-box label input{
+    background-color: white;
+    margin-right: o.2;
+}
+.remember-box a{
+    color:rgb(200, 120, 230);
+    text-decoration: none;
+}
+.remember-box a:hover{
+    text-decoration: underline;
+    color: black;
+}
+button{
+    width: 100%;
+    height:1rem;
+    overflow: hidden;
+    border: none;
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 0.6rem rgba(0,0,0,0.1);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.register{
+    font-size: 1.rem;
+    text-align: center;
+    margin-top: 0.8rem;
+}
