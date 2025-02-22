@@ -18,7 +18,7 @@ const Register = () => {
                 <input type="password" name="password"  placeholder="Enter Your Password &#128274;" required/>
             </div>
             <div className= "input-box">
-                <input type="text" name="number"  placeholder="Phone NUmber &#9742;" required/>
+                <input type="text" name="number"  placeholder="Phone Number &#9742;" required/>
             </div>
           
            <button type="submit">Register</button>

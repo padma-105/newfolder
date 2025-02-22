@@ -18,9 +18,9 @@ const Navbar = () => {
                 ☰
             </button>
             <ul className={`nav-items ${menuOpen ? 'show-menu' : ''}`}>
-                <li><Link to="/for-you">For You</Link></li>
+                <li><Link to="/">Home</Link></li>
                 <li><Link to="/events">Events</Link></li>
-                <li><Link to="/dining">Dining</Link></li>
+                <li><Link to="/dashboard">DashBoard</Link></li>
             </ul>
             <ul className={`registered-items ${menuOpen ? 'show-menu' : ''}`}>
                 <li><Link to="/login">Login</Link></li>

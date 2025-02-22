@@ -1,6 +1,6 @@
 import React from "react";
 
-const Dining = () => {
+const DashBoard = () => {
     return(
         <>
         dining component
@@ -8,4 +8,4 @@ const Dining = () => {
     )
 }
 
-export default Dining
+export default DashBoard
