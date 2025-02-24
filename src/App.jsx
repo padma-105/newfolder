@@ -11,6 +11,7 @@ import Register from './pages/register'
 import Footer from './components/footer/footer'
 import { Provider } from 'react-redux'
 import { store } from './redux/store.js'
+import PageNotFound from './pages/pageNotFound.jsx'
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
       <Route path= "/dashboard" element = {<DashBoard/>}/>
       <Route path= "/login" element = {<Login/>}/>
       <Route path= "/register" element = {<Register/>}/>
-      
+      <Route path='*' element={<PageNotFound />} />
      </Routes>
      </Provider>
      <Footer/>
