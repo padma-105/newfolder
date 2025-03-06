@@ -6,7 +6,7 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "eslint.config.js",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,6 +16,15 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
     "antd": "^5.24.1",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.13.1",
+    "mongoose": "^8.11.0",
+    "nodemon": "^3.1.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
@@ -33,5 +42,14 @@
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
     "vite": "^6.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/padma-105/newfolder.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/padma-105/newfolder/issues"
+  },
+  "homepage": "https://github.com/padma-105/newfolder#readme"
 }

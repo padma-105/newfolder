@@ -1,9 +1,10 @@
 import React from "react";
+import AdminDashBoard from "../components/dashBoard/adminDashBoard";
 
 const DashBoard = () => {
     return(
         <>
-        dining component
+       <AdminDashBoard/>
         </>
     )
 }

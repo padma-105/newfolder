@@ -2,7 +2,7 @@
 .home-container {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url('/images/image2.jpeg') no-repeat center center/cover;
+    background: url('../images/bcg4.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;

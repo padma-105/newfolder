@@ -13,11 +13,13 @@ import { Provider } from 'react-redux'
 import { store } from './redux/store.js'
 import PageNotFound from './pages/pageNotFound.jsx'
 
+
 function App() {
 
 
   return (
     <>
+    <div className="appcontainer">
      <Provider store ={store}>
      <Navbar/>
      <Routes>
@@ -30,6 +32,7 @@ function App() {
      </Routes>
      </Provider>
      <Footer/>
+     </div>
     </>
   )
 }

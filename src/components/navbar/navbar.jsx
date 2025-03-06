@@ -12,7 +12,7 @@ const Navbar = () => {
     };
 
     return (
-        <header className="header-section">
+        <header className="header-section" >
             <img src={myimage} alt="logo" id="logo" />
             <button className="hamburger" onClick={toggleMenu}>
                 ☰
